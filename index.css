@@ -1,0 +1,198 @@
+body{
+    background-image: url(https://media.istockphoto.com/photos/sunrise-over-field-picture-id825148240?b=1&k=20&m=825148240&s=170667a&w=0&h=gqOWac7pDXWOnbeidsEDiywW4sGRlzSzpSAwgBV-Vow=);
+    background-repeat:repeat-x;
+    background-size:100%;
+    /* border: 1px solid blue; */
+} 
+#top > button{
+   opacity: 75%;
+cursor: pointer;
+width: 200px;
+height: 50px;
+border-radius: 40px;
+border: none;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+#top > button:hover{
+    background-color: rgb(246, 139, 9);
+    transition-duration: 0.4s;
+}    
+input{
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+   text-align: center;
+   opacity: 75%; 
+}
+#div1{
+    /* border: 1px solid teal; */
+    width: 30%;
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+ /* border: 1px dotted red; */
+ width: 70%;
+ height: fit-content;
+ margin: auto;
+ margin-top: 150px;
+ /* background-color: rgb(209, 243, 18); */
+border-radius: 20px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+#gmap_canvas{
+    border-radius: 10px;
+}
+#top{
+    /* border: 1px solid green; */
+    width: fit-content;
+    margin: auto ;
+    margin-top: 20px;
+    margin-bottom: -120px;
+}
+#dailyReport{
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: auto;
+    gap: 8px;
+    margin: auto;
+    background-color: black;
+    opacity: 80%;
+    margin-top: -450px;
+    width: 80%;
+    border-radius: 20px;
+}
+#image{
+   
+    margin-left:35px ;
+}
+#dailyReport > div > h3{
+    /* border: 1px solid green; */
+    display: block;
+    text-align: center;
+    color: white;
+    
+}
+.animate-charcter {
+    margin-left: 38%;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            black 0%,
+            grey 29%,
+            grey 67%,
+            white 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 4s linear infinite;
+    display: inline-block;
+    font-size: 40px;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+@media only screen and (max-width: 400px) {
+
+        #dailyReport{
+            /* border: 1px solid blue; */
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: auto;
+            gap: 8px;
+            margin: auto;
+            background-color: black;
+            opacity: 80%;
+            margin-top: -450px;
+            width: 80%;
+            border-radius: 20px;
+        }
+        #image{
+            margin-left: 32%;
+        }
+        #container{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+         /* border: 1px dotted red; */
+         width: 70%;
+         height: fit-content;
+         margin: auto;
+         margin-top: 150px;
+         /* background-color: rgb(209, 243, 18); */
+        border-radius: 20px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        }
+        #top{
+            /* border: 1px solid green; */
+            width: fit-content;
+            /* margin: auto ; */
+            margin-top: 20px;
+            margin-bottom: -120px;
+            margin-left: 75px;
+        }
+        .animate-charcter {
+            text-align: center;
+            margin-left: -2%;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            background-image: linear-gradient(-225deg,
+                    black 0%,
+                    grey 29%,
+                    grey 67%,
+                    white 100%);
+            background-size: auto auto;
+            background-clip: border-box;
+            background-size: 200% auto;
+            color: #fff;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: textclip 4s linear infinite;
+            display: inline-block;
+            font-size: 40px;
+        }
+
+        @keyframes textclip {
+            to {
+                background-position: 200% center;
+            }
+        }
+        button{
+            margin-bottom: 12px;
+        }
+        input{
+            margin-bottom: 12px;
+        }
+        #div1{
+            /* border: 1px solid teal; */
+            width: 100%;
+            margin-bottom: 15px;
+        }
+        body{
+            background-image: url(https://images.unsplash.com/photo-1593594321080-7a385bee012a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHN1bm55JTVDfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+            background-repeat:repeat;
+            background-size:100%;
+            /* background-position: 100%; */
+            /* border: 1px solid blue; */
+        } 
+        #gmap_canvas{
+            height: 400px;
+            width: 250px;
+        }
+
+}
+    
